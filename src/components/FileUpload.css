@@ -1,0 +1,54 @@
+.top {
+  margin: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: #135D66;/* Updated button color */
+  border: none;
+  margin-top: 25px;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px;
+}
+.choose:hover {
+  box-shadow: rgba(202, 61, 0, 0.5) 0 3px 8px;
+}
+.textArea {
+  color: black  ;
+}
+
+.upload {
+  background-color: #135D66;/* Updated button color */
+  border: none;
+  margin-top: 25px;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px;
+}
+
+.upload:hover {
+  box-shadow: rgba(202, 61, 0, 0.5) 0 3px 8px;
+}
+
+.upload:disabled,
+.upload[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color:grey;
+}
+
+div {
+  padding: 5px 10px;
+}
